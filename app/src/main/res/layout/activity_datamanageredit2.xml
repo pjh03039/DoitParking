@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataManagerEdit2Activity">
+
+    <TextView
+        android:id="@+id/datamanager_edit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="주차장 수정"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/parkinglot_latitude"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="위도"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datamanager_edit2" />
+
+    <EditText
+        android:id="@+id/parkinglot_longtitude"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="경도"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkinglot_latitude" />
+
+    <EditText
+        android:id="@+id/parkinglot_name"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="주차장 이름"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkinglot_longtitude" />
+
+    <EditText
+        android:id="@+id/parkinglot_roadaddress"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="주차장 도로명 주소"
+        app:layout_constraintTop_toBottomOf="@id/parkinglot_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <EditText
+        android:id="@+id/parkinglot_jibunaddress"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="주차장 지번 주소"
+        app:layout_constraintTop_toBottomOf="@id/parkinglot_roadaddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <EditText
+        android:id="@+id/parkinglot_number"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="주차 구획 수"
+        app:layout_constraintTop_toBottomOf="@id/parkinglot_jibunaddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <EditText
+        android:id="@+id/parkinglot_separate"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="주차장 구분"
+        app:layout_constraintTop_toBottomOf="@id/parkinglot_number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <EditText
+        android:id="@+id/parkinglot_type"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="주차장 유형"
+        app:layout_constraintTop_toBottomOf="@id/parkinglot_separate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <EditText
+        android:id="@+id/parkinglot_operday"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="운영 요일"
+        app:layout_constraintTop_toBottomOf="@id/parkinglot_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+
+    <EditText
+        android:id="@+id/parkinglot_phone"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="전화번호"
+        app:layout_constraintTop_toBottomOf="@+id/parkinglot_operday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05"/>
+
+
+    <Button
+        android:id="@+id/btn_edit_next2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="다음(2/3)"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkinglot_phone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

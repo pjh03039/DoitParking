@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="내 정보">
+            <menu>
+                <item
+                    android:id="@+id/menu_edit"
+                    android:icon="@drawable/ic_person"
+                    android:title="회원 정보 수정" />
+                <item
+                    android:id="@+id/menu_reservation"
+                    android:icon="@drawable/ic_car"
+                    android:title="예약 조회" />
+                <item
+                    android:id="@+id/menu_bookmark"
+                    android:icon="@drawable/ic_bookmark"
+                    android:title="북마크" />
+                <item
+                    android:id="@+id/menu_grade"
+                    android:icon="@drawable/ic_grade"
+                    android:title="평점" />
+                <item
+                    android:id="@+id/menu_googleform"
+                    android:icon="@drawable/ic_googleform"
+                    android:title="구글폼" />
+                <item
+                    android:id="@+id/menu_logout"
+                    android:icon="@drawable/ic_person"
+                    android:title="로그아웃" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
+

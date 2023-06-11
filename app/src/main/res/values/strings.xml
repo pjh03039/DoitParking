@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Do it 파킹</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="search_title">Search</string>
+    <string name="menu_title">Menu</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="search_hint">검색어를 입력하세요.</string>
+</resources>
+
